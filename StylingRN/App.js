@@ -1,20 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import StyleSheetApi from './components/StyleSheetApi';
+// const App = () => <StyleSheetApi />;
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+// import MultipleStyles from './components/MultipleStyles';
+// const App = () => <MultipleStyles />;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// import BoxModel from './components/BoxModel';
+// const App = () => <BoxModel />;
+
+// import ShadowAndElevation from './components/ShadowAndElevation';
+// const App = () => <ShadowAndElevation />;
+
+import StyleInheritance from './components/StyleInheritance';
+const App = () => <StyleInheritance />;
+
+export default App;
