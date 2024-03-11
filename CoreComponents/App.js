@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import View from './components/View';
+// const App = () => <View />;
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+// import Text from './components/Text';
+// const App = () => <Text />;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// import Image from './components/Image';
+// const App = () => <Image />;
+
+// import ScrollView from './components/ScrollView';
+// const App = () => <ScrollView />;
+
+// import Button from './components/Button';
+// const App = () => <Button />;
+
+// import Pressable from './components/Pressable';
+// const App = () => <Pressable />;
+
+// import Modal from './components/Modal';
+// const App = () => <Modal />;
+
+// import StatusBar from './components/StatusBar';
+// const App = () => <StatusBar />;
+
+// import ActivityIndicator from './components/ActivityIndicator';
+// const App = () => <ActivityIndicator />;
+
+// import Alert from './components/Alert';
+// const App = () => <Alert />;
+
+import CustomComponent from './components/CustomComponent';
+const App = () => <CustomComponent />;
+
+export default App;
