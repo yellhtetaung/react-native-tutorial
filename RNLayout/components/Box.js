@@ -12,6 +12,14 @@ const styles = StyleSheet.create({
     box: {
         backgroundColor: '#fff',
         padding: 20,
+
+        // width: 50, // for align content
+        // height: 50, // for align content
+
+        // flexGrow: 1, // for flex grow
+
+        width: 100, // for relative and absolute layout
+        height: 100, // for relative and absolute layout
     },
 
     text: {
